@@ -1,0 +1,71 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: aqua;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+header img {
+    width: 100px;
+}
+
+nav{
+    background-color: coral;
+    width: 40%; 
+}
+
+ul {
+    background-color: blueviolet;
+    list-style: none;
+    flex-direction: row;
+}
+
+li{
+    background-color: darkolivegreen;
+}
+
+
+
+
+
+
+
+.Container-sinopsis, .Social-Media{
+    background-color: crimson;
+    display: flex;
+    margin: 30px;
+    padding: 20 px;
+    border-radius: 15px;
+}
+
+.Sub-container-sinopsis, .Social-Media {
+    background-color: palevioletred;
+    padding: 20px;
+    margin: 10px;
+}
+
+h3 {
+    background-color: darkgoldenrod;
+    text-align: center;
+    margin: 40px;
+    border-radius: 15px;
+}
+
+main .Social-Media img {
+    width: 180px;
+}
+
+.Sub-container-Media {
+    background-color: forestgreen;
+    padding: 10px;
+    margin: 20px;
+}
+footer {
+    background-color: goldenrod;
+}
