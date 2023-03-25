@@ -12,22 +12,29 @@ header {
 }
 
 header img {
-    width: 100px;
+    width: 120px;
 }
 
 nav{
     background-color: coral;
-    width: 40%; 
+    
+    
 }
 
 ul {
     background-color: blueviolet;
     list-style: none;
-    flex-direction: row;
+    
+    
 }
 
 li{
-    background-color: darkolivegreen;
+    background-color: beige;
+    display: inline;
+    
+    
+    
+    
 }
 
 
@@ -36,25 +43,47 @@ li{
 
 
 
-.Container-sinopsis, .Social-Media{
+.Container-synopsis, .Social-Media{
     background-color: crimson;
     display: flex;
+
     margin: 30px;
     padding: 20 px;
-    border-radius: 15px;
+    border-radius: 20px;
 }
 
-.Sub-container-sinopsis, .Social-Media {
+.Sub-container-synopsis, .Social-Media {
     background-color: palevioletred;
     padding: 20px;
     margin: 10px;
 }
 
-h3 {
+.tittle {
     background-color: darkgoldenrod;
     text-align: center;
-    margin: 40px;
+    margin: 20px;
     border-radius: 15px;
+}
+
+main .Card img {
+    width: 200px;
+}
+
+.Container-character {
+    background-color: darkturquoise;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding-block-end: 40px;
+    
+}
+.Card {
+    width: 300px;
+    background-color: bisque;
+    text-align: center;
+    padding: 20px;
+    margin-top: 30px;
+    border-radius: 20px;
 }
 
 main .Social-Media img {
