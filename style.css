@@ -64,7 +64,7 @@ main .Container-synopsis img {
     padding: 20 px;
     border-radius: 20px;
     color: white;
-    font-family: 'Montserrat', sans-serif; 
+    font-family: 'Montserrat', sans-serif;
 }
 
 .Sub-container-synopsis, .Social-Media {
@@ -85,6 +85,7 @@ main .Container-synopsis img {
 
 main .Card img {
     width: 200px;
+    border-radius: 50%;
 }
 
 .Container-character {
@@ -103,6 +104,9 @@ main .Card img {
     margin-top: 30px;
     border-radius: 20px;
     color: white;
+    font-family: 'Roboto', sans-serif;
+    
+
 }
 
 main .Social-Media img {
@@ -125,6 +129,6 @@ footer {
 }
 footer img {
     width: 120px;
-    background-color: white;
+    background-color: rgba(255, 255, 255, 70%);
     border-radius: 5px; 
 }
