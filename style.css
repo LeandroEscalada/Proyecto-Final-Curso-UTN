@@ -4,65 +4,83 @@
     box-sizing: border-box;
 }
 
+body{
+    background-image: url(assets/FondoPagina.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 100vp;
+}
+
 header {
-    background-color: aqua;
+    background-color: rgba(0, 0, 0, 90%);
     display: flex;
     justify-content: space-between;
-
+    align-items: center;
 }
 
 header img {
-    width: 120px;
+    width: 250px;
+    padding-left: 15px;
 }
 
-nav{
-    background-color: coral;
-    
-    
-}
+
 
 ul {
-    background-color: blueviolet;
-    list-style: none;
     
+    list-style: none; 
     
+    display: flex;
+    gap: 10px;
 }
 
 li{
-    background-color: beige;
-    display: inline;
+    background-color: rgb(158, 158, 49);
+    padding: 10px;
+    margin: 10px;
     
-    
-    
+}
+
+a{
+    text-decoration: none;
+    color: white;
+    font-size: 25px
     
 }
 
 
 
 
-
-
-
+main .Container-synopsis img {
+    width: 300px;
+    margin: 20px;
+    border-radius: 5px;
+    
+}
 .Container-synopsis, .Social-Media{
-    background-color: crimson;
+    background-color: rgba(0, 0, 0, 50%);
     display: flex;
-
+    font-size: 25px;
     margin: 30px;
     padding: 20 px;
     border-radius: 20px;
+    color: white;
+    font-family: 'Montserrat', sans-serif; 
 }
 
 .Sub-container-synopsis, .Social-Media {
-    background-color: palevioletred;
+    
     padding: 20px;
     margin: 10px;
 }
 
 .tittle {
-    background-color: darkgoldenrod;
+    background-color: rgba(0, 0, 0, 50%);
     text-align: center;
     margin: 20px;
     border-radius: 15px;
+    color: white;
+    font-size: 40px;
+    
 }
 
 main .Card img {
@@ -70,7 +88,7 @@ main .Card img {
 }
 
 .Container-character {
-    background-color: darkturquoise;
+    /*background-color: rgba(0, 206, 209, 90%);*/
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
@@ -79,15 +97,17 @@ main .Card img {
 }
 .Card {
     width: 300px;
-    background-color: bisque;
+    background-color: rgba(0, 0, 0, 50%);
     text-align: center;
     padding: 20px;
     margin-top: 30px;
     border-radius: 20px;
+    color: white;
 }
 
 main .Social-Media img {
     width: 180px;
+    border-radius: 8px;
 }
 
 .Sub-container-Media {
@@ -96,5 +116,15 @@ main .Social-Media img {
     margin: 20px;
 }
 footer {
-    background-color: goldenrod;
+    background-color: rgba(0, 0, 0, 90%);
+    font-size: 18px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    color: white;
+}
+footer img {
+    width: 120px;
+    background-color: white;
+    border-radius: 5px; 
 }
