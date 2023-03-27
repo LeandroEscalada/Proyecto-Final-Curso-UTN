@@ -138,6 +138,10 @@ footer img {
     background-color: rgba(255, 255, 255, 70%);
     border-radius: 5px; 
 }
+
+
+
+
 @media (max-width: 1000px) {
     .Social-Media{
         display: block;
@@ -161,9 +165,13 @@ footer img {
         border-radius: 50%;
     }
 }
+
 @media (max-width: 780px) {
     header{
-        display: block;  
+        flex-direction: column;
+    }
+    header img{
+        width: 350px;
     }
     ul{
         flex-direction: column;
